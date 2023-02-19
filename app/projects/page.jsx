@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import DefaultImage from "../../public/imgs/default-image-project.jpg"
-import data from "data.json"
+import data from "../data.json"
 
 
 export default function ProjectsPage() {
