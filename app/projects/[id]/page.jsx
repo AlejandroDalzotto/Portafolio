@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link.js"
 import Image from "next/image.js"
 import EyeIcon from "public/icons/eye-solid.svg"
