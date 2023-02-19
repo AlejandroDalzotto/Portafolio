@@ -7,7 +7,8 @@ import GithubIcon from "public/icons/github.svg"
 
 export default function Project({ params }) {
     const { id } = params
-    const { name, description, repository, contributors, frameworks, languages, demo, resources } = data[id - 1]
+    const { projects } = data
+    const { name, description, repository, contributors, frameworks, languages, demo, resources } = projects[id-1]
 
     return (
         <div className="min-h-[calc(110vh+80px)] px-4">
