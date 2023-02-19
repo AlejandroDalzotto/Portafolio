@@ -1,12 +1,12 @@
 import Image from "next/image"
 import Link from "next/link"
 import DefaultImage from "../../public/imgs/default-image-project.jpg"
-import data from "../data.json"
+import data from "../data.js"
 
 
 export default function ProjectsPage() {
 
-  const { projects } = data
+  const { projects } = data()
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center w-full">
