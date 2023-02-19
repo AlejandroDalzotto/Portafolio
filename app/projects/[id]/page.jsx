@@ -1,4 +1,4 @@
-import data from "../../data.js"
+import Data from "../../../utils/data.js"
 import Link from "next/link.js"
 import Image from "next/image.js"
 import EyeIcon from "public/icons/eye-solid.svg"
@@ -7,7 +7,7 @@ import GithubIcon from "public/icons/github.svg"
 
 export default function Project({ params }) {
     const { id } = params
-    const { projects } = data()
+    const { projects } = Data()
     const { name, description, repository, contributors, frameworks, languages, demo, resources } = projects[id-1]
 
     return (
