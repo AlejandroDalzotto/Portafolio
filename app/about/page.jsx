@@ -1,9 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
-import FbIcon from "public/icons/facebook.svg"
-import IgIcon from "public/icons/instagram.svg"
-import LndnIcon from "public/icons/linkedin.svg"
-import GithubIcon from "public/icons/github.svg"
+import FbIcon from "@/public/icons/facebook.svg"
+import IgIcon from "@/public/icons/instagram.svg"
+import LndnIcon from "@/public/icons/linkedin.svg"
+import GithubIcon from "@/public/icons/github.svg"
 
 
 export default function AboutPage() {

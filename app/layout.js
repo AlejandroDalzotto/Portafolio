@@ -1,7 +1,9 @@
+'use client'
+
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
-import background from "public/imgs/background-wallpaper.png"
+import background from "@/public/imgs/background-wallpaper.png"
 
 export default function RootLayout({ children }) {
   return (

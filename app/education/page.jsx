@@ -1,4 +1,4 @@
-import DiplomaIcon from "../../public/icons/diploma.png"
+import DiplomaIcon from "@/public/icons/diploma.png"
 import Image from "next/image"
 import Link from "next/link"
 
