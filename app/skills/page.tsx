@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import { BACKEND_SKILLS, FRONTEND_SKILLS, OTHER_SKILLS } from "@/data"
 
