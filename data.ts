@@ -1,9 +1,96 @@
-import React from "react"
+/* Socials icons */
+import GithubIcon from "@/public/icons/github.svg"
+import FbIcon from "@/public/icons/facebook.svg"
+import IgIcon from "@/public/icons/instagram.svg"
+import LinkedinIcon from "@/public/icons/linkedin.svg"
+
+/* Skills icons */
+import HtmlIcon from "@/public/icons/html5.svg"
+import CssIcon from "@/public/icons/css3.svg"
+import JsIcon from "@/public/icons/javascript.svg"
+import AngularIcon from "@/public/icons/angular.svg"
+import ReactIcon from "@/public/icons/react.svg"
+import TwcssIcon from "@/public/icons/tailwindcss.svg"
+import JavaIcon from "@/public/icons/java.svg"
+import SpringIcon from "@/public/icons/springboot.svg"
+import MysqlIcon from "@/public/icons/mysql.svg"
+import GitIcon from "@/public/icons/git.svg"
+
+/* Projects image */
+import DefaultImage from "@/public/imgs/default-image-project.jpg"
+
+export const BACKEND_SKILLS = [
+    {
+        title: 'Java',
+        icon: JavaIcon
+    },
+    {
+        title: 'Spring boot',
+        icon: SpringIcon
+    },
+    {
+        title: 'MySQL',
+        icon: MysqlIcon
+    }
+]
+
+export const FRONTEND_SKILLS = [
+    {
+        title: 'HTML5',
+        icon: HtmlIcon
+    },
+    {
+        title: 'CSS3',
+        icon: CssIcon
+    },
+    {
+        title: 'JavaScript',
+        icon: JsIcon
+    },
+    {
+        title: 'Angular',
+        icon: AngularIcon
+    },
+    {
+        title: 'React',
+        icon: ReactIcon
+    },
+    {
+        title: 'TailwindCSS',
+        icon: TwcssIcon
+    }
+]
+
+export const OTHER_SKILLS = [
+    {
+        title: 'Git',
+        icon: GitIcon
+    }
+]
+
+export const SOCIALS = [
+    {
+        link: 'https://www.facebook.com/alejandro.dalzotto.1/',
+        icon: FbIcon,
+    },
+    {
+        link: 'https://github.com/AlejandroDalzotto',
+        icon: GithubIcon,
+    },
+    {
+        link: 'https://www.instagram.com/alejandrodalzotto/',
+        icon: IgIcon,
+    },
+    {
+        link: 'https://www.linkedin.com/in/alejandro-dalzotto-44214a24b/',
+        icon: LinkedinIcon,
+    }
+]
 
 export const PROJECTS = [
     {
         id: 1,
-        project_name: "StockTracking",
+        name: "StockTracking",
         short_description: "Aplicación Full stack para el control de Stock.",
         description: "Es una aplicación que nos permite realizar el seguimiento de Stock de la medicina usada en un Tambo.",
         repository: "https://github.com/WaldoCuevas/StockTracking",
@@ -47,7 +134,7 @@ export const PROJECTS = [
     },
     {
         id: 2,
-        project_name: "Comunitate",
+        name: "Comunitate",
         short_description: "PWA que ayuda a mejorar la comunicación.",
         description: "Es una aplicación web progresiva que permite a los usuarios en condiciones especiales mejorar su comunicacíon.",
         repository: "https://github.com/lM4nu/Comunicate",
@@ -86,7 +173,7 @@ export const PROJECTS = [
     },
     {
         id: 3,
-        project_name: "Carrito de compras",
+        name: "Carrito de compras",
         short_description: "Aplicación que simula un comportamiento de una web Ecommerce.",
         description: "Una pequeña aplicación que muestra una serie de productos los cuales se puede agregar a un carro.",
         repository: "https://github.com/AlejandroDalzotto/carrito-de-compras",
@@ -114,7 +201,7 @@ export const PROJECTS = [
     },
     {
         id: 4,
-        project_name: "Gestor de Usuarios",
+        name: "Gestor de Usuarios",
         short_description: "Un pequeño C.R de Usuarios.",
         description: "Un pequeño proyecto con React para practicar el manejo de estado de los formularios.",
         repository: "https://github.com/AlejandroDalzotto/gestor-de-usuarios",
@@ -137,11 +224,11 @@ export const PROJECTS = [
             }
         ],
         demo: null,
-        img: false
+        img: DefaultImage
     },
     {
         id: 5,
-        project_name: "My galery",
+        name: "My galery",
         short_description: "Un buscador de imágenes.",
         description: "Un pequeño proyecto con React el cual nos permite hacer llamados a la API de Unsplash y nos itera una pequeña cantidad de imágenes como resultado de nuestra búsqueda.",
         repository: "https://github.com/AlejandroDalzotto/galeria-de-imagenes",
@@ -170,7 +257,7 @@ export const PROJECTS = [
     },
     {
         id: 6,
-        project_name: "Lista Series",
+        name: "Lista Series",
         short_description: "Un C.R.U.D para controlar que series estamos viendo.",
         description: "Es una aplicación web donde podemos agregar series/películas/animes para controlar cuantos episodios vimos y así no perdernos.",
         repository: null,
@@ -199,7 +286,7 @@ export const PROJECTS = [
     },
     {
         id: 7,
-        project_name: "Calculadora",
+        name: "Calculadora",
         short_description: "Calculadora de interés compuesto.",
         description: "Este es un proyecto hecho con React que nos da una calculadora de interés compuesto. Esto lo que hace es calcular cuanto dinero (En dolares) nosotros vamos a ganar en el transcurso de los años si es que nosotros hacemos un deposito inicial y luego seguimos contribuyendo dinero de manera anual.",
         repository: "https://github.com/AlejandroDalzotto/calculadora-interes-compuesto",
@@ -227,7 +314,7 @@ export const PROJECTS = [
     },
     {
         id: 8,
-        project_name: "Portfolio Web",
+        name: "Portfolio Web",
         short_description: "Mi página personal.",
         description: "Esta es mi página web personal hecha con Next.js 13 pensada para que quienes estén interesados en conocerme puedan encontrar todo lo relacionado con mi experiencia como desarrollador en un solo lugar..",
         repository: "https://github.com/AlejandroDalzotto/Portafolio",
