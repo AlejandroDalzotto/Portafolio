@@ -1,3 +1,5 @@
+"use client"
+
 /* Socials icons */
 import GithubIcon from "@/public/icons/github.svg"
 import FbIcon from "@/public/icons/facebook.svg"
@@ -309,7 +311,7 @@ export const PROJECTS = [
                 profile: "https://github.com/alejandrodalzotto"
             }
         ],
-        demo: null,
+        demo: "https://calculadoradeinteres.vercel.app/",
         img: "https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHwxfHxjYWxjdWxhdG9yfGVufDB8fHx8MTY3NjgxODY1Mw&ixlib=rb-4.0.3&q=80&w=1080"
     },
     {

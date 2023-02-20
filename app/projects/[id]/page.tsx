@@ -1,4 +1,4 @@
-
+"use client"
 import { PROJECTS } from "@/data"
 import DetailsProject from "@/components/DetailsProject"
 
