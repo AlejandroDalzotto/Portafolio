@@ -1,4 +1,3 @@
-import data from '@/data.json' assert { type: 'JSON' };
 import DetailsProject from "@/components/DetailsProject"
 
 export default function page({ params }) {
