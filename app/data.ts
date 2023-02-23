@@ -1,5 +1,3 @@
-"use client"
-
 /* Socials icons */
 import GithubIcon from "@/public/icons/github.svg"
 import FbIcon from "@/public/icons/facebook.svg"
@@ -141,20 +139,13 @@ export const PROJECTS = [
         description: "Es una aplicación web progresiva que permite a los usuarios en condiciones especiales mejorar su comunicacíon.",
         repository: "https://github.com/lM4nu/Comunicate",
         languages: [
-            "TypeScript",
-            "JavaScript",
-            "HTML",
-            "CSS"
+            "TypeScript", "JavaScript", "HTML", "CSS"
         ],
         frameworks: [
             "Angular"
         ],
         resources: [
-            "Angular PWA",
-            "LocalStorage",
-            "Google Fonts",
-            "Font Awesome",
-            "SpeechSynthesisUtterance"
+            "Angular PWA", "LocalStorage", "Google Fonts", "Font Awesome", "SpeechSynthesisUtterance"
         ],
         contributors: [
             {
@@ -207,14 +198,10 @@ export const PROJECTS = [
         short_description: "Un pequeño C.R de Usuarios.",
         description: "Un pequeño proyecto con React para practicar el manejo de estado de los formularios.",
         repository: "https://github.com/AlejandroDalzotto/gestor-de-usuarios",
-        languages: [
-            "JavaScript",
-            "HTML",
-            "CSS"
+        languages: ["JavaScript", "HTML", "CSS"
         ],
         frameworks: [
-            "React",
-            "Tailwind"
+            "React", "Tailwind"
         ],
         resources: [
             "Google Fonts"

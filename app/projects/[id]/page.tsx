@@ -1,6 +1,5 @@
-"use client"
-import { PROJECTS } from "@/data"
-import DetailsProject from "@/components/DetailsProject"
+import { PROJECTS } from "@/app/data"
+import DetailsProject from "@/app/components/DetailsProject"
 
 export default function page(props: any) {
   const { id } = props.params

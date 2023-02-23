@@ -1,8 +1,6 @@
-"use client"
-
 import Link from "next/link";
 import Image from "next/image";
-import { SOCIALS } from "@/data";
+import { SOCIALS } from "@/app/data";
 
 export default function page() {
     return (

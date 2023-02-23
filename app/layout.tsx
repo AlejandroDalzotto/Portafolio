@@ -1,6 +1,6 @@
 import './globals.css'
 import { Josefin_Sans as JosefinSans } from '@next/font/google'
-import Navbar from '@/components/Navbar'
+import Navbar from '@/app/components/Navbar'
 
 const inter = JosefinSans({ subsets: ['latin'], weight: ['400'] })
 

@@ -1,9 +1,7 @@
-"use client"
-
 import DiplomaIcon from "@/public/icons/diploma.png"
 import Image from "next/image"
 import Link from "next/link"
-import { EDUCATION } from "@/data"
+import { EDUCATION } from "@/app/data"
 
 export default function page() {
     return (
