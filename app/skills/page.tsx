@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { BACKEND_SKILLS, FRONTEND_SKILLS, OTHER_SKILLS } from "@/app/data.ts"
+import { BACKEND_SKILLS, FRONTEND_SKILLS, OTHER_SKILLS } from "@/app/data.js"
 
 export default function page() {
     return (

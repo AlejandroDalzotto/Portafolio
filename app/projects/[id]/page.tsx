@@ -1,4 +1,4 @@
-import { PROJECTS } from "@/app/data.ts"
+import { PROJECTS } from "@/app/data.js"
 import DetailsProject from "@/app/components/DetailsProject"
 
 export default function page(props: any) {

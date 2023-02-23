@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { SOCIALS } from "@/app/data.ts";
+import { SOCIALS } from "@/app/data.js";
 
 export default function page() {
     return (

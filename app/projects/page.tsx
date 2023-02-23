@@ -1,6 +1,6 @@
 import Project from "@/app/components/Project"
 
-import { PROJECTS } from "@/app/data.ts"
+import { PROJECTS } from "@/app/data.js"
 
 export default function page() {
 

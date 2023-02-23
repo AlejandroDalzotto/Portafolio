@@ -1,7 +1,7 @@
 import DiplomaIcon from "@/public/icons/diploma.png"
 import Image from "next/image"
 import Link from "next/link"
-import { EDUCATION } from "@/app/data.ts"
+import { EDUCATION } from "@/app/data.js"
 
 export default function page() {
     return (
