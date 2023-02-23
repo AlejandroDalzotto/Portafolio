@@ -10,8 +10,3 @@ body {
 body {
     background-attachment: fixed;
 }
-
-.active {
-    left: 0%;
-    opacity: 1;
-}
