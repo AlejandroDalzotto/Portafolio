@@ -38,6 +38,10 @@
             {
                 "title": "TailwindCSS",
                 "icon": "https://simpleicons.org/icons/tailwindcss.svg"
+            },
+            {
+                "title": "Next.js",
+                "icon": "https://simpleicons.org/icons/nextdotjs.svg"
             }
         ],
         "others": [
@@ -290,7 +294,8 @@
                 "TailwindCSS"
             ],
             "resources": [
-                "Vercel"
+                "Vercel",
+                "Simple icons"
             ],
             "contributors": [
                 {
@@ -308,6 +313,12 @@
             "title": "Técnico en Programación",
             "description": "Esta carrera me ofrecio conocimientos y prácticas intensivas en diferentes tecnologías que me permiten analizar un problema de procesamiento de datos y desarrollar una solución en un lenguaje apropiado.",
             "link": "https://files.deply.dev/files/baa83db5-e885-4385-94de-a1b939b0b07c-520ceb42-5a7b-41c3-ab63-71bf903de69a-certificado.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Udemy: Curso de React/NextJS/Redux",
+            "description": "Este curso me ofreció conocimientos en React, Redux, NextJS y JavaScript para poder resolver problemas y desarrollar aplicaciones y páginas web de alto nivel y así poder entregar una asombrosa experiencia a los usuarios.",
+            "link": "https://udemy-certificate.s3.amazonaws.com/image/UC-02d870fa-46b1-4ee8-ae11-f820de1780d2.jpg"
         }
     ]
 }
