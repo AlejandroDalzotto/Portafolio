@@ -37,7 +37,7 @@ export default function Navbar() {
             </div>
 
 
-            <div className={`fixed md:relative md:block bottom-0 md:bottom-auto w-full md:max-w-[768px] md:left-0 top-0 md:h-[inherit] bg-white/10 backdrop-blur-[2px] md:bg-transparent z-[3] transition-all opacity-0 md:opacity-100 ${navbar ? "left-[0] opacity-100" : "left-[-100%] opacity-0"}`}>
+            <div className={`fixed md:relative md:block bottom-0 md:bottom-auto w-full md:max-w-[768px] md:left-0 top-0 md:h-[inherit] bg-white/50 md:bg-transparent z-[3] transition-all opacity-0 md:opacity-100 ${navbar ? "left-[0] opacity-100" : "left-[-100%] opacity-0"}`}>
                 <nav className="h-96 md:h-full bg-slate-100 md:bg-transparent m-2 p-4 flex items-end text-black md:text-[#e8eddf]">
                     <button className="absolute top-6 left-6 md:hidden" onClick={() => setNavbar(!navbar)}>
                         <Image src={XMark} width={25} height={25} alt='bars_icon' />

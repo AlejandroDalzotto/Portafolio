@@ -1,7 +1,9 @@
+"use client"
 import Link from "next/link.js"
 import Image from "next/image.js"
 import EyeIcon from "@/public/icons/eye-solid.svg"
 import GithubIcon from "@/public/icons/github.svg"
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import data from '@/data.json' assert { type: 'JSON' };
 
 export default function DetailsProject({ id }) {
@@ -10,15 +12,13 @@ export default function DetailsProject({ id }) {
 
     const project = projects[id - 1]
 
-    // ring-2 ring-[#242423]/[33] bg-neutral-900 w-72 h-96 shadow-lg m-4 p-4 rounded relative transition-all hover:ring-[#f5cb5c]/[50]
-    // paragraph: text-[#cfdbd5]
-    // headers: text-[#f5cb5c]
-
     return (
         <article>
-            <div>
-                <h2 className="text-center my-6 text-4xl font-bold text-[#f5cb5c]">{project && project.name}</h2>
-                <p className="text-center my-6 font-medium text-[#cfdbd5]">{project && project.description}</p>
+            <div className="flex flex-col items-center">
+                <RoughNotation type="box" show={true} color="#f5cb5c" strokeWidth={2} iterations={3}>
+                    <h2 className="p-2 text-4xl font-bold text-[#f5cb5c]">{project && project.name}</h2>
+                </RoughNotation>
+                <p className="my-6 font-medium text-[#cfdbd5]">{project && project.description}</p>
                 <div className="flex overflow-x-auto p-4 h-80 gap-4 md:gap-6 md:justify-center">
                     <div className="ring-2 ring-[#242423]/[33] bg-neutral-900 p-4 shadow rounded-xl min-w-[80%] md:min-w-[20%] transition-all lg:hover:min-w-[45%] hover:ring-[#f5cb5c]/[50]">
                         <h3 className="text-[#f5cb5c] text-xl font-semibold">Tecnologías</h3>

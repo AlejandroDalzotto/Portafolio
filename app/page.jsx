@@ -4,7 +4,7 @@ import DiplomaIcon from "@/public/icons/diploma.png"
 import MyImage from "@/public/headshot.webp"
 import Link from 'next/link'
 import data from '@/data.json' assert { type: 'JSON' };
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import { RoughNotation } from "react-rough-notation";
 
 export default function Home() {
   const { socials, educations } = data
@@ -17,7 +17,11 @@ export default function Home() {
 
         <div className="flex flex-col justify-center items-center min-h-[95vh]">
           <div className="flex justify-center md:items-center md:gap-14 relative">
-            <Image src={MyImage} alt="headshot.jpg" className="hidden md:block md:w-[380px] md:h-[400px] rounded-3xl" priority={true} />
+            <div className='hidden md:block'>
+              <RoughNotation type="bracket" brackets={['left', 'right']} show={true} color="#f5cb5c" padding={10} strokeWidth={2}>
+                <Image src={MyImage} alt="headshot.jpg" className="md:w-[380px] md:h-[400px] rounded-3xl" priority={true} />
+              </RoughNotation>
+            </div>
 
             <div className='flex flex-col gap-8 items-start'>
               <h2 className="bg-gradient-to-r from-amber-200 to-yellow-500 bg-clip-text text-4xl font-bold leading-[1.1] text-transparent text-center md:text-left">Portafolio de Presentación</h2>
@@ -46,8 +50,8 @@ export default function Home() {
 
       <div className="w-full h-auto py-32 bg-[#f5cb5c]">
         <div className='container mx-auto flex flex-col md:flex-row gap-12 items-center justify-center'>
-          <RoughNotation type="highlight" show={true} color="#171717" padding={30}>
-            <h2 className="text-[#f5cb5c] text-5xl font-bold leading-[1.2] tracking-wider text-center my-2">Sobre mí</h2>
+          <RoughNotation type="box" show={true} color="#171717" padding={30}>
+            <h2 className="text-[#171717] text-5xl font-bold leading-[1.2] tracking-wider text-center my-2">Sobre mí</h2>
           </RoughNotation>
           <div className='text-neutral-700 font-medium tracking-tight text-xl p-2 max-w-[60ch]'>
             <p>Me he desempeñado como aprendiz de desarrollo de software durante 2 años y mi objetivo es seguir mejorando mi nivel como desarrollador. Soy proactivo, confiable, me gusta trabajar en equipo y siempre dar mi mejor esfuerzo.<br />
