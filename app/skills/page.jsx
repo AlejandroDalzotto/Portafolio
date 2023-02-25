@@ -1,6 +1,10 @@
 import Image from "next/image"
 import data from '@/data.json' assert { type: 'JSON' };
 
+export const metadata = {
+    title: 'Portfolio - Conocimientos'
+}
+
 export default function page() {
 
     const { skills } = data

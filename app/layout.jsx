@@ -17,6 +17,10 @@ const jssans = JosefinSans({ subsets: ['latin'] })
   Main headers: linear-gradient to right from #fde68a to #eab308
 */
 
+export const metadata = {
+  title: 'Portfolio - Alejandro Dalzotto'
+}
+
 
 export default function RootLayout({ children }) {
   return (

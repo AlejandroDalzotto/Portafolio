@@ -1,6 +1,15 @@
 import DetailsProject from "@/components/DetailsProject"
 
-export default function page({ params }) {
+
+
+export async function generateMetadata({ params }) {
+
+    const { id } = params
+
+    return { title: `Portfolio - Proyecto ${id}` }
+}
+
+export default async function page({ params }) {
     const { id } = params
 
     return (

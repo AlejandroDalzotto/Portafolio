@@ -2,6 +2,10 @@ import Project from "@/components/Project"
 
 import data from '@/data.json' assert { type: 'JSON' };
 
+export const metadata = {
+    title: 'Portfolio - Proyectos'
+}
+
 export default function page() {
 
     const { projects } = data
