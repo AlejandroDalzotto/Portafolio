@@ -23,7 +23,7 @@ export default function Home() {
             <div className="flex justify-center md:items-center md:gap-24 relative">
               <div className='hidden xl:block'>
                 <Image src={MyImage} alt="headshot.jpg" className="md:w-[380px] md:h-[400px] rounded-3xl" priority={true} />
-                <Image src={SplashBg} alt="splash.png" className="md:w-[380px] absolute top-0 left-0 -z-10 scale-150 saturate-50" priority={true} />
+                <Image src={SplashBg} alt="splash.png" className="md:w-[380px] absolute -top-3 left-0 -z-10 scale-150 saturate-50" priority={true} />
               </div>
 
               <div className='flex flex-col gap-8 items-start'>

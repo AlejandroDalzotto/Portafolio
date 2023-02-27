@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className={`${jssans.className}  bg-gradient-to-tr from-black to-neutral-800`}>
+      <body className={`${jssans.className}  bg-gradient-to-tr from-black to-neutral-800 scroll`}>
         <Navbar />
         {children}
       </body>

@@ -13,7 +13,7 @@ export default async function page({ params }) {
     const { id } = params
 
     return (
-        <div className="min-h-[calc(110vh+80px)] px-4">
+        <div className="min-h-[calc(110vh+80px)] relative">
             <DetailsProject id={id} />
         </div>
     )
