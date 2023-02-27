@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import DiplomaIcon from "@/public/icons/diploma.png"
 import MyImage from "@/public/headshot.webp"
+import SplashBg from "@/public/imgs/splash_bg.png"
 import Link from 'next/link'
 import data from '@/data.json' assert { type: 'JSON' };
 import { RoughNotation } from "react-rough-notation";
@@ -19,11 +20,10 @@ export default function Home() {
           {/* Home */}
 
           <div className="flex flex-col justify-center items-center min-h-[95vh] w-full">
-            <div className="flex justify-center md:items-center md:gap-14 relative">
+            <div className="flex justify-center md:items-center md:gap-24 relative">
               <div className='hidden xl:block'>
-                <RoughNotation type="bracket" brackets={['left', 'right']} show={true} color="#f5cb5c" padding={10} strokeWidth={2}>
-                  <Image src={MyImage} alt="headshot.jpg" className="md:w-[380px] md:h-[400px] rounded-3xl" priority={true} />
-                </RoughNotation>
+                <Image src={MyImage} alt="headshot.jpg" className="md:w-[380px] md:h-[400px] rounded-3xl" priority={true} />
+                <Image src={SplashBg} alt="splash.png" className="md:w-[380px] absolute top-0 left-0 -z-10 scale-150 saturate-50" priority={true} />
               </div>
 
               <div className='flex flex-col gap-8 items-start'>
