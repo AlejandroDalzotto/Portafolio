@@ -53,16 +53,8 @@
     },
     "socials": [
         {
-            "link": "https://www.facebook.com/alejandro.dalzotto.1/",
-            "icon": "https://simpleicons.org/icons/facebook.svg"
-        },
-        {
             "link": "https://github.com/AlejandroDalzotto",
             "icon": "https://simpleicons.org/icons/github.svg"
-        },
-        {
-            "link": "https://www.instagram.com/alejandrodalzotto/",
-            "icon": "https://simpleicons.org/icons/instagram.svg"
         },
         {
             "link": "https://www.linkedin.com/in/alejandro-dalzotto-44214a24b/",
@@ -290,7 +282,7 @@
         },
         {
             "id": 2,
-            "title": "Udemy: Curso de React/NextJS/Redux",
+            "title": "Curso de React & NextJS",
             "description": "Este curso me ofreció conocimientos en React, Redux, NextJS y JavaScript para poder resolver problemas y desarrollar aplicaciones y páginas web de alto nivel y así poder entregar una asombrosa experiencia a los usuarios.",
             "link": "https://udemy-certificate.s3.amazonaws.com/image/UC-02d870fa-46b1-4ee8-ae11-f820de1780d2.jpg"
         }
