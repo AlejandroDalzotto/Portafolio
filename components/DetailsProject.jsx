@@ -20,7 +20,7 @@ export default function DetailsProject({ id }) {
                     <RoughNotation type="box" show={true} color="#f5cb5c" strokeWidth={2} iterations={3}>
                         <h2 className="p-2 text-4xl font-bold text-[#f5cb5c] text-center">{project && project.name}</h2>
                     </RoughNotation>
-                    <p className="text-[#cfdbd5] font-medium text-lg my-6">{project && project.description}</p>
+                    <p className="text-[#cfdbd5] max-w-[140ch] font-medium text-lg my-6">{project && project.description}</p>
                     <div className="w-full h-24 flex items-center justify-center gap-20">
                         {project && project.demo !== null ?
                             <Link href={project.demo} target='_blank' className="ring-2 ring-[#242423]/[33] bg-neutral-900 w-10 h-10 flex items-center justify-center rounded-full transition-all hover:ring-[#f5cb5c]/[50] hover:scale-105">

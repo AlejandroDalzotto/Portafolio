@@ -48,6 +48,10 @@
             {
                 "title": "Git",
                 "icon": "https://simpleicons.org/icons/git.svg"
+            },
+            {
+                "title": "Figma",
+                "icon": "https://simpleicons.org/icons/figma.svg"
             }
         ]
     },
@@ -143,57 +147,6 @@
         },
         {
             "id": 3,
-            "name": "Carrito de compras",
-            "short_description": "Aplicación que simula un comportamiento de una web Ecommerce.",
-            "description": "Una pequeña aplicación que muestra una serie de productos los cuales se puede agregar a un carro.",
-            "repository": "https://github.com/AlejandroDalzotto/carrito-de-compras",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "React",
-                "TailwindCSS"
-            ],
-            "resources": [
-                "Font Awesome",
-                "Aos library"
-            ],
-            "contributors": [
-                {
-                    "username": "Alejandro Dalzotto",
-                    "profile": "https://github.com/alejandrodalzotto"
-                }
-            ],
-            "demo": "https://alejandrodalzotto.github.io/carrito-de-compras/",
-            "img": "https://images.unsplash.com/photo-1557821552-17105176677c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHwxNXx8c2hvcHBpbmd8ZW58MHx8fHwxNjc2ODE4MzIw&ixlib=rb-4.0.3&q=80&w=1080"
-        },
-        {
-            "id": 4,
-            "name": "Gestor de Usuarios",
-            "short_description": "Un pequeño C.R de Usuarios.",
-            "description": "Un pequeño proyecto con React para practicar el manejo de estado de los formularios.",
-            "repository": "https://github.com/AlejandroDalzotto/gestor-de-usuarios",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "React",
-                "Tailwind"
-            ],
-            "resources": [
-                "Google Fonts"
-            ],
-            "contributors": [
-                {
-                    "username": "Alejandro Dalzotto",
-                    "profile": "https://github.com/alejandrodalzotto"
-                }
-            ],
-            "demo": null,
-            "img": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHw0fHxmcm9udGVuZHxlbnwwfHx8fDE2NzcxMjM1ODQ&ixlib=rb-4.0.3&q=80&w=1080"
-        },
-        {
-            "id": 5,
             "name": "My galery",
             "short_description": "Un buscador de imágenes.",
             "description": "Un pequeño proyecto con React el cual nos permite hacer llamados a la API de Unsplash y nos itera una pequeña cantidad de imágenes como resultado de nuestra búsqueda.",
@@ -220,57 +173,31 @@
             "img": "https://images.unsplash.com/photo-1523461811963-7f1023caeddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHw2fHxpbWFnZXN8ZW58MHx8fHwxNjc2ODE4NDg0&ixlib=rb-4.0.3&q=80&w=1080"
         },
         {
-            "id": 6,
-            "name": "Lista Series",
-            "short_description": "Un C.R.U.D para controlar que series estamos viendo.",
-            "description": "Es una aplicación web donde podemos agregar series/películas/animes para controlar cuantos episodios vimos y así no perdernos.",
-            "repository": null,
+            "id": 4,
+            "name": "Codeffee",
+            "short_description": "Una página web de una cafetería ficticia.",
+            "description": "Se trata de un sitio web de una cafetería ficticia que permite a los usuarios comprar una amplia variedad de productos de forma sencilla. A través de una interfaz fácil de usar, los usuarios pueden buscar y explorar una amplia selección de productos, que incluyen opciones como café, té, desayunos y postres.",
+            "repository": "https://github.com/AlejandroDalzotto/codeffee",
             "technologies": [
-                "Java",
-                "Spring boot"
-            ],
-            "resources": [
-                "Google Fonts",
-                "Font Awesome",
-                "Maven",
-                "NodeJS",
-                "MySQL",
-                "JPA"
-            ],
-            "contributors": [
-                {
-                    "username": "Alejandro Dalzotto",
-                    "profile": "https://github.com/alejandrodalzotto"
-                }
-            ],
-            "demo": null,
-            "img": "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHwxMHx8bmV0ZmxpeHxlbnwwfHx8fDE2NzY4MTg2MDI&ixlib=rb-4.0.3&q=80&w=1080"
-        },
-        {
-            "id": 7,
-            "name": "Calculadora",
-            "short_description": "Calculadora de interés compuesto.",
-            "description": "Este es un proyecto hecho con React que nos da una calculadora de interés compuesto. Esto lo que hace es calcular cuanto dinero (En dolares) nosotros vamos a ganar en el transcurso de los años si es que nosotros hacemos un deposito inicial y luego seguimos contribuyendo dinero de manera anual.",
-            "repository": "https://github.com/AlejandroDalzotto/calculadora-interes-compuesto",
-            "technologies": [
-                "JavaScript",
+                "TypeScript",
                 "HTML",
                 "CSS",
-                "React",
-                "TailwindCSS"
+                "NextJS",
+                "TailwindCSS",
+                "Vercel"
             ],
             "resources": [
-                "Styled-components librery",
-                "Formik"
+                "React Icons",
+                "Sonner"
             ],
             "contributors": [
                 {
                     "username": "Alejandro Dalzotto",
-                    "profile": "https://github.com/alejandrodalzotto"
+                    "profile": "https: //github.com/alejandrodalzotto"
                 }
             ],
-            "demo": "https://calculadoradeinteres.vercel.app/",
-            "img": "https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHwxfHxjYWxjdWxhdG9yfGVufDB8fHx8MTY3NjgxODY1Mw&ixlib=rb-4.0.3&q=80&w=1080"
+            "demo": "https://codeffee.vercel.app/",
+            "img": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHwyfHxjYWZlfGVufDB8fHx8MTY4MTIyNDE2Mw&ixlib=rb-4.0.3&q=80&w=1080"
         }
     ],
     "educations": [
@@ -285,6 +212,12 @@
             "title": "Curso de React & NextJS",
             "description": "Este curso me ofreció conocimientos en React, Redux, NextJS y JavaScript para poder resolver problemas y desarrollar aplicaciones y páginas web de alto nivel y así poder entregar una asombrosa experiencia a los usuarios.",
             "link": "https://udemy-certificate.s3.amazonaws.com/image/UC-02d870fa-46b1-4ee8-ae11-f820de1780d2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Curso de Diseño UX/UI",
+            "description": "El curso que realicé me brindó valiosos conocimientos y prácticas en la investigación de usuarios, permitiéndome aprender cómo crear aplicaciones que satisfagan sus necesidades y ofrecer productos de alta calidad. Además, tuve la oportunidad de aprender sobre metodologías ágiles de trabajo, lo que me permitió encarar proyectos de manera más efectiva.",
+            "link": "https://files.deply.dev/files/aa23b6c7-2f1b-45e7-810d-e239c5957fbd-9696796f-a567-49e0-9305-f20b90e31ec9-Certificado_Curso_de_Dise%C3%B1o_UX_UI_&_Figma_-_Udemy.jpg"
         }
     ]
 }

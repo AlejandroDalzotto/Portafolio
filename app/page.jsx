@@ -28,7 +28,7 @@ export default function Home() {
 
               <div className='flex flex-col gap-8 items-start'>
                 <h2 className="bg-gradient-to-r from-amber-200 to-yellow-500 bg-clip-text text-4xl font-bold leading-[1.1] text-transparent text-center md:text-left">Portafolio de Presentación</h2>
-                <p className="font-medium text-lg text-center text-[#cfdbd5]">Saludos 👋 mi nombre es Alejandro Dalzotto y me desempeño como desarrollador Full Stack.</p>
+                <p className="font-medium text-lg xl:text-xl text-center text-[#cfdbd5]">Saludos 👋 mi nombre es Alejandro Dalzotto y me desempeño como desarrollador Full Stack.</p>
                 <div className='flex justify-center gap-1 md:gap-5 w-full md:justify-start'>
                   <Link className='grid place-content-center md:text-xl text-neutral-900 font-bold py-1 px-4 bg-[#f5cb5c] border-[#f5cb5c] shadow border-2 transition-all rounded hover:border-[#f5cb5c] hover:bg-transparent hover:text-[#f5cb5c]' href="https://files.deply.dev/files/c3912e82-42ca-4f9a-aab9-a75134be37d7-b1ee04d5-de58-42b4-adca-5bd62c46b14c-CV_4.pdf">¡Échale un vistazo a mi CV!</Link>
                   <Link className='grid place-content-center md:text-xl text-[#f5cb5c] font-bold py-1 px-4 bg-transparent border-2 border-[#f5cb5c] transition-all rounded hover:border-[#f5cb5c] shadow hover:bg-[#f5cb5c] hover:text-neutral-900' href="mailto:aledalzotto15@gmail.com">¡Contáctame!</Link>
@@ -81,7 +81,7 @@ export default function Home() {
             {educations.map((item, idx) => {
               return (
 
-                <div key={idx} className="relative ring-2 ring-[#242423]/[33] w-80 h-[400px] shadow-lg m-4 p-4 rounded transition-all hover:ring-[#f5cb5c]/[50]">
+                <div key={idx} className="relative ring-2 ring-[#242423]/[33] w-80 h-[500px] shadow-lg m-4 p-4 rounded transition-all hover:ring-[#f5cb5c]/[50]">
                   <h2 className="text-[#f5cb5c] font-medium tracking-tighter text-xl h-16">{item.title}</h2>
                   <hr className="bg-[#cfdbd5] h-1 w-full mb-3" />
                   <p className="text-[#cfdbd5]">{item.description}</p>
