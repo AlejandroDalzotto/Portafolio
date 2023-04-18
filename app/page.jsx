@@ -28,7 +28,7 @@ export default function Home() {
 
               <div className='flex flex-col gap-8 items-start'>
                 <h2 className="bg-gradient-to-r from-amber-200 to-yellow-500 bg-clip-text text-4xl font-bold leading-[1.1] text-transparent text-center md:text-left">Portafolio de Presentación</h2>
-                <p className="font-medium text-lg xl:text-xl text-center text-[#cfdbd5]">Saludos 👋 mi nombre es Alejandro Dalzotto y me desempeño como desarrollador Full Stack.</p>
+                <p className="font-medium text-lg xl:text-xl text-center md:text-left max-w-[50ch] text-[#cfdbd5]">Saludos 👋 mi nombre es Alejandro Dalzotto y me desempeño como desarrollador Full Stack.</p>
                 <div className='flex justify-center gap-1 md:gap-5 w-full md:justify-start'>
                   <Link className='grid place-content-center md:text-xl text-neutral-900 font-bold py-1 px-4 bg-[#f5cb5c] border-[#f5cb5c] shadow border-2 transition-all rounded hover:border-[#f5cb5c] hover:bg-transparent hover:text-[#f5cb5c]' href="https://files.deply.dev/files/136730d9-c719-429b-98e6-6f9c10ea58a3-6d3d78b7-8bd0-49fe-81f9-b860efa4420e-CV_es.pdf">¡Échale un vistazo a mi CV!</Link>
                   <Link className='grid place-content-center md:text-xl text-[#f5cb5c] font-bold py-1 px-4 bg-transparent border-2 border-[#f5cb5c] transition-all rounded hover:border-[#f5cb5c] shadow hover:bg-[#f5cb5c] hover:text-neutral-900' href="mailto:aledalzotto15@gmail.com">¡Contáctame!</Link>
@@ -71,7 +71,7 @@ export default function Home() {
 
       {/* Education */}
 
-      <section className='w-full h-auto py-36 relative'>
+      <section className='w-full h-auto pt-80 pb-40 relative'>
         <article className="flex flex-col items-center container mx-auto">
           <RoughNotation type="underline" show={true} color="#f5cb5c">
             <h2 className="text-[#f5cb5c] text-5xl font-bold leading-[1.2] tracking-wider text-center my-1">Educación</h2>

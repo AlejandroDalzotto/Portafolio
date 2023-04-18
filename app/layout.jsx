@@ -2,7 +2,7 @@ import './globals.css'
 import { Josefin_Sans as JosefinSans } from '@next/font/google'
 import Navbar from '@/components/Navbar'
 
-const jssans = JosefinSans({ subsets: ['latin'] })
+const jssans = JosefinSans({ subsets: ['latin'], weight: ["400"] })
 
 /*
   Text's colors:
