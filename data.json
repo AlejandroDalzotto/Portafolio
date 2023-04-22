@@ -110,7 +110,7 @@
         },
         {
             "id": 2,
-            "name": "Comunitate",
+            "name": "Comunicate",
             "short_description": "PWA que ayuda a mejorar la comunicación.",
             "description": "Es una aplicación web progresiva que permite a los usuarios en condiciones especiales mejorar su comunicacíon.",
             "repository": "https://github.com/lM4nu/Comunicate",
