@@ -16,12 +16,12 @@ export default function DetailsProject({ id }) {
     return (
         <article className='flex flex-col w-full'>
             <div className="flex flex-col items-center">
-                <div className='relative w-full h-96 px-4 py-10 flex flex-col items-center'>
+                <div className='relative w-full h-[600px] px-4 py-10 flex flex-col items-center justify-center'>
                     <RoughNotation type="box" show={true} color="#f5cb5c" strokeWidth={2} iterations={3}>
                         <h2 className="p-2 text-4xl font-bold text-[#f5cb5c] text-center">{project && project.name}</h2>
                     </RoughNotation>
                     <p className="text-[#cfdbd5] max-w-[140ch] font-medium text-lg my-6">{project && project.description}</p>
-                    <div className="w-full h-24 flex items-center justify-center gap-20">
+                    <div className="w-full h-40 flex items-center justify-center gap-20">
                         {project && project.demo !== null ?
                             <Link href={project.demo} target='_blank' className="ring-2 ring-[#242423]/[33] bg-neutral-900 w-10 h-10 flex items-center justify-center rounded-full transition-all hover:ring-[#f5cb5c]/[50] hover:scale-105">
                                 <Image src={EyeIcon} width={20} height={20} className="invert" alt="icon" />
@@ -31,9 +31,9 @@ export default function DetailsProject({ id }) {
                                 <Image src={GithubIcon} width={20} height={20} className="invert" alt="icon" />
                             </Link> : null}
                     </div>
-                    <div class="custom-shape-divider-bottom-1677533143">
+                    <div class="custom-shape-divider-bottom-1682177013">
                         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                            <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="shape-fill"></path>
                         </svg>
                     </div>
                 </div>
