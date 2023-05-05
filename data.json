@@ -12,6 +12,18 @@
             {
                 "title": "MySQL",
                 "icon": "https://simpleicons.org/icons/mysql.svg"
+            },
+            {
+                "title": "TypeScript",
+                "icon": "https://simpleicons.org/icons/typescript.svg"
+            },
+            {
+                "title": "NodeJS",
+                "icon": "https://simpleicons.org/icons/nodedotjs.svg"
+            },
+            {
+                "title": "ExpressJS",
+                "icon": "https://simpleicons.org/icons/express.svg"
             }
         ],
         "frontend": [
