@@ -21,7 +21,7 @@ export default function page() {
                         <div className="grid grid-cols-4 h-48 p-4 md:grid-cols-8">
                             {frontend.map((item, idx) => {
                                 return (
-                                    <div key={idx} className="ring-2 ring-[#242423]/[33] bg-neutral-900 w-14 h-14 flex items-center justify-center rounded-full transition-all hover:ring-[#f5cb5c]/[50] hover:scale-105">
+                                    <div key={idx} className="ring-2 ring-[#242423]/[33] bg-neutral-900 w-14 h-14 m-auto lg:mx-0 flex items-center justify-center rounded-full transition-all hover:ring-[#f5cb5c]/[50] hover:scale-105">
                                         <Image title={item.title} className="invert" width={30} height={30} alt={item.title} src={item.icon} />
                                     </div>
                                 )
@@ -31,10 +31,10 @@ export default function page() {
                     <>
                         <h3 className="text-[#f5cb5c] font-medium tracking-tight text-2xl p-4">Back-end</h3>
                         <p className="text-[#cfdbd5] font-medium tracking-tight text-lg p-4">También cuento con experiencia en el desarrollo de la lógica del servidor y la implementación de APIs RESTful mediante el uso de las siguientes tecnologías</p>
-                        <div className="grid grid-cols-4 h-40 p-4 md:grid-cols-8">
+                        <div className="grid grid-cols-4 h-48 p-4 md:grid-cols-8">
                             {backend.map((item, idx) => {
                                 return (
-                                    <div key={idx} className="ring-2 ring-[#242423]/[33] bg-neutral-900 w-14 h-14 flex items-center justify-center rounded-full transition-all hover:ring-[#f5cb5c]/[50] hover:scale-105">
+                                    <div key={idx} className="ring-2 ring-[#242423]/[33] bg-neutral-900 w-14 h-14 m-auto lg:mx-0 flex items-center justify-center rounded-full transition-all hover:ring-[#f5cb5c]/[50] hover:scale-105">
                                         <Image title={item.title} width={30} height={30} className="invert" alt={item.title} src={item.icon} />
                                     </div>
                                 )
@@ -44,10 +44,10 @@ export default function page() {
                     <>
                         <h3 className="text-[#f5cb5c] font-medium tracking-tight text-2xl p-4">Otras habilidades</h3>
                         <p className="text-[#cfdbd5] font-medium tracking-tight text-lg p-4">Además, tengo experiencia en el uso de otras herramientas y tecnologías que complementan mi trabajo, como:</p>
-                        <div className="grid grid-cols-4 h-40 p-4 md:grid-cols-8">
+                        <div className="grid grid-cols-4 h-48 p-4 md:grid-cols-8">
                             {others.map((item, idx) => {
                                 return (
-                                    <div key={idx} className="ring-2 ring-[#242423]/[33] bg-neutral-900 w-14 h-14 flex items-center justify-center rounded-full transition-all hover:ring-[#f5cb5c]/[50] hover:scale-105">
+                                    <div key={idx} className="ring-2 ring-[#242423]/[33] bg-neutral-900 w-14 h-14 m-auto lg:mx-0 flex items-center justify-center rounded-full transition-all hover:ring-[#f5cb5c]/[50] hover:scale-105">
                                         <Image title={item.title} width={30} height={30} className="invert" alt={item.title} src={item.icon} />
                                     </div>
                                 )
