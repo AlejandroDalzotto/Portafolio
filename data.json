@@ -1,235 +1,235 @@
 {
-    "skills": {
-        "backend": [
-            {
-                "title": "Java",
-                "icon": "https://img.icons8.com/ios/256/java-coffee-cup-logo.png"
-            },
-            {
-                "title": "Spring boot",
-                "icon": "https://simpleicons.org/icons/springboot.svg"
-            },
-            {
-                "title": "MySQL",
-                "icon": "https://simpleicons.org/icons/mysql.svg"
-            },
-            {
-                "title": "TypeScript",
-                "icon": "https://simpleicons.org/icons/typescript.svg"
-            },
-            {
-                "title": "NodeJS",
-                "icon": "https://simpleicons.org/icons/nodedotjs.svg"
-            },
-            {
-                "title": "ExpressJS",
-                "icon": "https://simpleicons.org/icons/express.svg"
-            }
-        ],
-        "frontend": [
-            {
-                "title": "HTML5",
-                "icon": "https://simpleicons.org/icons/html5.svg"
-            },
-            {
-                "title": "CSS3",
-                "icon": "https://simpleicons.org/icons/css3.svg"
-            },
-            {
-                "title": "JavaScript",
-                "icon": "https://simpleicons.org/icons/javascript.svg"
-            },
-            {
-                "title": "Angular",
-                "icon": "https://simpleicons.org/icons/angular.svg"
-            },
-            {
-                "title": "React",
-                "icon": "https://simpleicons.org/icons/react.svg"
-            },
-            {
-                "title": "TailwindCSS",
-                "icon": "https://simpleicons.org/icons/tailwindcss.svg"
-            },
-            {
-                "title": "Next.js",
-                "icon": "https://simpleicons.org/icons/nextdotjs.svg"
-            }
-        ],
-        "others": [
-            {
-                "title": "Git",
-                "icon": "https://simpleicons.org/icons/git.svg"
-            },
-            {
-                "title": "Figma",
-                "icon": "https://simpleicons.org/icons/figma.svg"
-            }
-        ]
-    },
-    "socials": [
-        {
-            "link": "https://github.com/AlejandroDalzotto",
-            "icon": "https://simpleicons.org/icons/github.svg"
-        },
-        {
-            "link": "https://www.linkedin.com/in/alejandro-dalzotto-44214a24b/",
-            "icon": "https://simpleicons.org/icons/linkedin.svg"
-        }
+  "skills": {
+    "backend": [
+      {
+        "title": "Java",
+        "icon": "https://img.icons8.com/ios/256/java-coffee-cup-logo.png"
+      },
+      {
+        "title": "Spring boot",
+        "icon": "https://simpleicons.org/icons/springboot.svg"
+      },
+      {
+        "title": "MySQL",
+        "icon": "https://simpleicons.org/icons/mysql.svg"
+      },
+      {
+        "title": "TypeScript",
+        "icon": "https://simpleicons.org/icons/typescript.svg"
+      },
+      {
+        "title": "NodeJS",
+        "icon": "https://simpleicons.org/icons/nodedotjs.svg"
+      },
+      {
+        "title": "ExpressJS",
+        "icon": "https://simpleicons.org/icons/express.svg"
+      }
     ],
-    "projects": [
-        {
-            "id": 1,
-            "name": "StockTracking",
-            "short_description": "Aplicación Full stack para el control de Stock.",
-            "description": "Es una aplicación que nos permite realizar el seguimiento de Stock de la medicina usada en un Tambo.",
-            "repository": "https://github.com/WaldoCuevas/StockTracking",
-            "technologies": [
-                "Java",
-                "TypeScript",
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Spring boot",
-                "Spring Security",
-                "Angular"
-            ],
-            "resources": [
-                "Toastr",
-                "JWT",
-                "Auth 2.0",
-                "Cors",
-                "Maven",
-                "NodeJS",
-                "MySQL",
-                "JPA",
-                "Hibernate",
-                "Font Awesome",
-                "Google Fonts"
-            ],
-            "contributors": [
-                {
-                    "username": "Waldo Cuevas",
-                    "profile": "https://github.com/WaldoCuevas"
-                },
-                {
-                    "username": "Alejandro Dalzotto",
-                    "profile": "https://github.com/alejandrodalzotto"
-                }
-            ],
-            "demo": null,
-            "img": "https://images.unsplash.com/photo-1533305120462-aed774147024?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHwxMnx8Y291bnRyeXxlbnwwfHx8fDE2NzY4MTc3MTU&ixlib=rb-4.0.3&q=80&w=1080"
-        },
-        {
-            "id": 2,
-            "name": "Comunicate",
-            "short_description": "PWA que ayuda a mejorar la comunicación.",
-            "description": "Es una aplicación web progresiva que permite a los usuarios en condiciones especiales mejorar su comunicacíon.",
-            "repository": "https://github.com/lM4nu/Comunicate",
-            "technologies": [
-                "TypeScript",
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Angular"
-            ],
-            "resources": [
-                "Angular PWA",
-                "LocalStorage",
-                "Google Fonts",
-                "Font Awesome",
-                "SpeechSynthesis"
-            ],
-            "contributors": [
-                {
-                    "username": "Waldo Cuevas",
-                    "profile": "https://github.com/WaldoCuevas"
-                },
-                {
-                    "username": "Alejandro Dalzotto",
-                    "profile": "https://github.com/alejandrodalzotto"
-                },
-                {
-                    "username": "Manuel Sosa",
-                    "profile": "https://github.com/lM4nu"
-                }
-            ],
-            "demo": "https://comunicate-con-nosotros.web.app/home",
-            "img": "https://images.unsplash.com/photo-1588072432836-e10032774350?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHwzfHxzY2hvb2x8ZW58MHx8fHwxNjc2ODE4MTY0&ixlib=rb-4.0.3&q=80&w=1080"
-        },
-        {
-            "id": 3,
-            "name": "My galery",
-            "short_description": "Un buscador de imágenes.",
-            "description": "Un pequeño proyecto con React el cual nos permite hacer llamados a la API de Unsplash y nos itera una pequeña cantidad de imágenes como resultado de nuestra búsqueda.",
-            "repository": "https://github.com/AlejandroDalzotto/galeria-de-imagenes",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "React",
-                "TailwindCSS"
-            ],
-            "resources": [
-                "Unsplash API",
-                "Font Awesome",
-                "Aos Librery"
-            ],
-            "contributors": [
-                {
-                    "username": "Alejandro Dalzotto",
-                    "profile": "https: //github.com/alejandrodalzotto"
-                }
-            ],
-            "demo": "https://alejandrodalzotto.github.io/galeria-de-imagenes/",
-            "img": "https://images.unsplash.com/photo-1523461811963-7f1023caeddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHw2fHxpbWFnZXN8ZW58MHx8fHwxNjc2ODE4NDg0&ixlib=rb-4.0.3&q=80&w=1080"
-        },
-        {
-            "id": 4,
-            "name": "Codeffee",
-            "short_description": "Una página web de una cafetería ficticia.",
-            "description": "Se trata de un sitio web de una cafetería ficticia que permite a los usuarios comprar una amplia variedad de productos de forma sencilla. A través de una interfaz fácil de usar, los usuarios pueden buscar y explorar una amplia selección de productos, que incluyen opciones como café, té, desayunos y postres.",
-            "repository": "https://github.com/AlejandroDalzotto/codeffee",
-            "technologies": [
-                "TypeScript",
-                "HTML",
-                "CSS",
-                "NextJS",
-                "TailwindCSS",
-                "Vercel"
-            ],
-            "resources": [
-                "React Icons",
-                "Sonner"
-            ],
-            "contributors": [
-                {
-                    "username": "Alejandro Dalzotto",
-                    "profile": "https: //github.com/alejandrodalzotto"
-                }
-            ],
-            "demo": "https://codeffee.vercel.app/",
-            "img": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHwyfHxjYWZlfGVufDB8fHx8MTY4MTIyNDE2Mw&ixlib=rb-4.0.3&q=80&w=1080"
-        }
+    "frontend": [
+      {
+        "title": "HTML5",
+        "icon": "https://simpleicons.org/icons/html5.svg"
+      },
+      {
+        "title": "CSS3",
+        "icon": "https://simpleicons.org/icons/css3.svg"
+      },
+      {
+        "title": "JavaScript",
+        "icon": "https://simpleicons.org/icons/javascript.svg"
+      },
+      {
+        "title": "Angular",
+        "icon": "https://simpleicons.org/icons/angular.svg"
+      },
+      {
+        "title": "React",
+        "icon": "https://simpleicons.org/icons/react.svg"
+      },
+      {
+        "title": "TailwindCSS",
+        "icon": "https://simpleicons.org/icons/tailwindcss.svg"
+      },
+      {
+        "title": "Next.js",
+        "icon": "https://simpleicons.org/icons/nextdotjs.svg"
+      }
     ],
-    "educations": [
-        {
-            "id": 1,
-            "title": "Técnico en Programación",
-            "description": "Esta carrera me ofrecio conocimientos y prácticas intensivas en diferentes tecnologías que me permiten analizar un problema de procesamiento de datos y desarrollar una solución en un lenguaje apropiado.",
-            "link": "https://files.deply.dev/files/baa83db5-e885-4385-94de-a1b939b0b07c-520ceb42-5a7b-41c3-ab63-71bf903de69a-certificado.jpg"
-        },
-        {
-            "id": 2,
-            "title": "Curso de React & NextJS",
-            "description": "Este curso me ofreció conocimientos en React, Redux, NextJS y JavaScript para poder resolver problemas y desarrollar aplicaciones y páginas web de alto nivel y así poder entregar una asombrosa experiencia a los usuarios.",
-            "link": "https://udemy-certificate.s3.amazonaws.com/image/UC-02d870fa-46b1-4ee8-ae11-f820de1780d2.jpg"
-        },
-        {
-            "id": 3,
-            "title": "Curso de Diseño UX/UI",
-            "description": "El curso que realicé me brindó valiosos conocimientos y prácticas en la investigación de usuarios, permitiéndome aprender cómo crear aplicaciones que satisfagan sus necesidades y ofrecer productos de alta calidad. Además, tuve la oportunidad de aprender sobre metodologías ágiles de trabajo, lo que me permitió encarar proyectos de manera más efectiva.",
-            "link": "https://files.deply.dev/files/aa23b6c7-2f1b-45e7-810d-e239c5957fbd-9696796f-a567-49e0-9305-f20b90e31ec9-Certificado_Curso_de_Dise%C3%B1o_UX_UI_&_Figma_-_Udemy.jpg"
-        }
+    "others": [
+      {
+        "title": "Git",
+        "icon": "https://simpleicons.org/icons/git.svg"
+      },
+      {
+        "title": "Figma",
+        "icon": "https://simpleicons.org/icons/figma.svg"
+      }
     ]
+  },
+  "socials": [
+    {
+      "link": "https://github.com/AlejandroDalzotto",
+      "icon": "https://simpleicons.org/icons/github.svg"
+    },
+    {
+      "link": "https://www.linkedin.com/in/alejandro-dalzotto-44214a24b/",
+      "icon": "https://simpleicons.org/icons/linkedin.svg"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "StockTracking",
+      "short_description": "Aplicación Full stack para el control de Stock.",
+      "description": "Es una aplicación que nos permite realizar el seguimiento de Stock de la medicina usada en un Tambo.",
+      "repository": "https://github.com/WaldoCuevas/StockTracking",
+      "technologies": [
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Spring boot",
+        "Spring Security",
+        "Angular"
+      ],
+      "resources": [
+        "Toastr",
+        "JWT",
+        "Auth 2.0",
+        "Cors",
+        "Maven",
+        "NodeJS",
+        "MySQL",
+        "JPA",
+        "Hibernate",
+        "Font Awesome",
+        "Google Fonts"
+      ],
+      "contributors": [
+        {
+          "username": "Waldo Cuevas",
+          "profile": "https://github.com/WaldoCuevas"
+        },
+        {
+          "username": "Alejandro Dalzotto",
+          "profile": "https://github.com/alejandrodalzotto"
+        }
+      ],
+      "demo": null,
+      "img": "https://images.unsplash.com/photo-1533305120462-aed774147024?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHwxMnx8Y291bnRyeXxlbnwwfHx8fDE2NzY4MTc3MTU&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+      "id": 2,
+      "name": "Comunicate",
+      "short_description": "PWA que ayuda a mejorar la comunicación.",
+      "description": "Es una aplicación web progresiva que permite a los usuarios en condiciones especiales mejorar su comunicacíon.",
+      "repository": "https://github.com/lM4nu/Comunicate",
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Angular"
+      ],
+      "resources": [
+        "Angular PWA",
+        "LocalStorage",
+        "Google Fonts",
+        "Font Awesome",
+        "SpeechSynthesis"
+      ],
+      "contributors": [
+        {
+          "username": "Waldo Cuevas",
+          "profile": "https://github.com/WaldoCuevas"
+        },
+        {
+          "username": "Alejandro Dalzotto",
+          "profile": "https://github.com/alejandrodalzotto"
+        },
+        {
+          "username": "Manuel Sosa",
+          "profile": "https://github.com/lM4nu"
+        }
+      ],
+      "demo": "https://comunicate-con-nosotros.web.app/home",
+      "img": "https://images.unsplash.com/photo-1588072432836-e10032774350?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHwzfHxzY2hvb2x8ZW58MHx8fHwxNjc2ODE4MTY0&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+      "id": 3,
+      "name": "My galery",
+      "short_description": "Un buscador de imágenes.",
+      "description": "Un pequeño proyecto con React el cual nos permite hacer llamados a la API de Unsplash y nos itera una pequeña cantidad de imágenes como resultado de nuestra búsqueda.",
+      "repository": "https://github.com/AlejandroDalzotto/galeria-de-imagenes",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "React",
+        "TailwindCSS"
+      ],
+      "resources": [
+        "Unsplash API",
+        "Font Awesome",
+        "Aos Librery"
+      ],
+      "contributors": [
+        {
+          "username": "Alejandro Dalzotto",
+          "profile": "https: //github.com/alejandrodalzotto"
+        }
+      ],
+      "demo": "https://alejandrodalzotto.github.io/galeria-de-imagenes/",
+      "img": "https://images.unsplash.com/photo-1523461811963-7f1023caeddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHw2fHxpbWFnZXN8ZW58MHx8fHwxNjc2ODE4NDg0&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+      "id": 4,
+      "name": "Codeffee",
+      "short_description": "Una página web de una cafetería ficticia.",
+      "description": "Se trata de un sitio web de una cafetería ficticia que permite a los usuarios comprar una amplia variedad de productos de forma sencilla. A través de una interfaz fácil de usar, los usuarios pueden buscar y explorar una amplia selección de productos, que incluyen opciones como café, té, desayunos y postres.",
+      "repository": "https://github.com/AlejandroDalzotto/codeffee",
+      "technologies": [
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "NextJS",
+        "TailwindCSS",
+        "Vercel"
+      ],
+      "resources": [
+        "React Icons",
+        "Sonner"
+      ],
+      "contributors": [
+        {
+          "username": "Alejandro Dalzotto",
+          "profile": "https: //github.com/alejandrodalzotto"
+        }
+      ],
+      "demo": "https://codeffee.vercel.app/",
+      "img": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHwyfHxjYWZlfGVufDB8fHx8MTY4MTIyNDE2Mw&ixlib=rb-4.0.3&q=80&w=1080"
+    }
+  ],
+  "educations": [
+    {
+      "id": 1,
+      "title": "Técnico en Programación",
+      "description": "Esta carrera me ofrecio conocimientos y prácticas intensivas en diferentes tecnologías que me permiten analizar un problema de procesamiento de datos y desarrollar una solución en un lenguaje apropiado.",
+      "link": "https://files.deply.dev/files/baa83db5-e885-4385-94de-a1b939b0b07c-520ceb42-5a7b-41c3-ab63-71bf903de69a-certificado.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Curso de React & NextJS",
+      "description": "Este curso me ofreció conocimientos en React, Redux, NextJS y JavaScript para poder resolver problemas y desarrollar aplicaciones y páginas web de alto nivel y así poder entregar una asombrosa experiencia a los usuarios.",
+      "link": "https://udemy-certificate.s3.amazonaws.com/image/UC-02d870fa-46b1-4ee8-ae11-f820de1780d2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Curso de Diseño UX/UI",
+      "description": "El curso que realicé me brindó valiosos conocimientos y prácticas en la investigación de usuarios, permitiéndome aprender cómo crear aplicaciones que satisfagan sus necesidades y ofrecer productos de alta calidad. Además, tuve la oportunidad de aprender sobre metodologías ágiles de trabajo, lo que me permitió encarar proyectos de manera más efectiva.",
+      "link": "https://files.deply.dev/files/aa23b6c7-2f1b-45e7-810d-e239c5957fbd-9696796f-a567-49e0-9305-f20b90e31ec9-Certificado_Curso_de_Dise%C3%B1o_UX_UI_&_Figma_-_Udemy.jpg"
+    }
+  ]
 }
