@@ -13,27 +13,27 @@ export default function Home() {
 
   return (
     <main>
-      <section className='w-full relative'>
+      <section className='relative w-full'>
 
         <article className='container mx-auto'>
 
           {/* Home */}
 
           <div className="flex flex-col justify-center items-center min-h-[95vh] w-full">
-            <div className="flex justify-center md:items-center md:gap-24 relative">
+            <div className="relative flex justify-center md:items-center md:gap-24">
               <div className='hidden xl:block'>
                 <Image src={MyImage} alt="headshot.jpg" className="md:w-[380px] md:h-[400px] rounded-3xl" priority={true} />
                 <Image src={SplashBg} alt="splash.png" className="md:w-[380px] absolute -top-3 left-0 -z-10 scale-150 saturate-50" priority={true} />
               </div>
 
-              <div className='flex flex-col gap-8 items-start'>
+              <div className='flex flex-col items-start gap-8'>
                 <h2 className="bg-gradient-to-r from-amber-200 to-yellow-500 bg-clip-text text-4xl font-bold leading-[1.1] text-transparent text-center md:text-left">Portafolio de Presentación</h2>
                 <p className="font-medium text-lg xl:text-xl text-center md:text-left max-w-[50ch] text-[#cfdbd5]">Saludos 👋 mi nombre es Alejandro Dalzotto y me desempeño como desarrollador Full Stack.</p>
-                <div className='flex justify-center gap-1 md:gap-5 w-full md:justify-start'>
-                  <Link className='grid place-content-center md:text-xl text-neutral-900 font-bold py-1 px-4 bg-[#f5cb5c] border-[#f5cb5c] shadow border-2 transition-all rounded hover:border-[#f5cb5c] hover:bg-transparent hover:text-[#f5cb5c]' href="https://files.deply.dev/files/fc3762a7-52b1-48e1-8e93-4e3ccbce7fa8-31a3dca2-714f-4413-9e2b-db647816a12e-CV_en.pdf">¡Échale un vistazo a mi CV!</Link>
+                <div className='flex justify-center w-full gap-1 md:gap-5 md:justify-start'>
+                  <Link className='grid place-content-center md:text-xl text-neutral-900 font-bold py-1 px-4 bg-[#f5cb5c] border-[#f5cb5c] shadow border-2 transition-all rounded hover:border-[#f5cb5c] hover:bg-transparent hover:text-[#f5cb5c]' href="/CV_en.pdf" target='_blank'>¡Échale un vistazo a mi CV!</Link>
                   <Link className='grid place-content-center md:text-xl text-[#f5cb5c] font-bold py-1 px-4 bg-transparent border-2 border-[#f5cb5c] transition-all rounded hover:border-[#f5cb5c] shadow hover:bg-[#f5cb5c] hover:text-neutral-900' href="mailto:aledalzotto15@gmail.com">¡Contáctame!</Link>
                 </div>
-                <div className="flex justify-center gap-5 w-full md:justify-start">
+                <div className="flex justify-center w-full gap-5 md:justify-start">
                   {socials.map((item, idx) => {
                     return (
                       <Link key={idx} className="ring-2 ring-[#242423]/[33] bg-neutral-900 w-10 h-10 flex items-center justify-center rounded-full transition-all hover:ring-[#f5cb5c]/[50] hover:scale-105" href={item.link} target="_blank">
@@ -52,7 +52,7 @@ export default function Home() {
       {/* About me */}
 
       <section className="w-full h-auto py-32 bg-[#f5cb5c]">
-        <div className='container mx-auto flex flex-col md:flex-row gap-12 items-center justify-center'>
+        <div className='container flex flex-col items-center justify-center gap-12 mx-auto md:flex-row'>
           <RoughNotation type="box" show={true} color="#171717" padding={30}>
             <h2 className="text-[#171717] text-5xl font-bold leading-[1.2] tracking-wider text-center my-2">Sobre mí</h2>
           </RoughNotation>
@@ -65,12 +65,12 @@ export default function Home() {
 
       {/* Education */}
 
-      <section className='w-full h-auto pt-80 pb-40 relative'>
-        <article className="flex flex-col items-center container mx-auto">
+      <section className='relative w-full h-auto pb-40 pt-80'>
+        <article className="container flex flex-col items-center mx-auto">
           <RoughNotation type="underline" show={true} color="#f5cb5c">
             <h2 className="text-[#f5cb5c] text-5xl font-bold leading-[1.2] tracking-wider text-center my-1">Educación</h2>
           </RoughNotation>
-          <div className="flex flex-wrap gap-5 justify-center mt-10">
+          <div className="flex flex-wrap justify-center gap-5 mt-10">
 
             {educations.map((item, idx) => {
               return (
