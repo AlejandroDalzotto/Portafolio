@@ -24,6 +24,10 @@
       {
         "title": "ExpressJS",
         "icon": "https://simpleicons.org/icons/express.svg"
+      },
+      {
+        "title": "Socket.io",
+        "icon": "https://simpleicons.org/icons/socketdotio.svg"
       }
     ],
     "frontend": [
@@ -217,19 +221,25 @@
       "id": 1,
       "title": "Técnico en Programación",
       "description": "Esta carrera me ofrecio conocimientos y prácticas intensivas en diferentes tecnologías que me permiten analizar un problema de procesamiento de datos y desarrollar una solución en un lenguaje apropiado.",
-      "link": "https://files.deply.dev/files/baa83db5-e885-4385-94de-a1b939b0b07c-520ceb42-5a7b-41c3-ab63-71bf903de69a-certificado.jpg"
+      "link": "/certificates/developer.jpg"
     },
     {
       "id": 2,
       "title": "Curso de React & NextJS",
       "description": "Este curso me ofreció conocimientos en React, Redux, NextJS y JavaScript para poder resolver problemas y desarrollar aplicaciones y páginas web de alto nivel y así poder entregar una asombrosa experiencia a los usuarios.",
-      "link": "https://udemy-certificate.s3.amazonaws.com/image/UC-02d870fa-46b1-4ee8-ae11-f820de1780d2.jpg"
+      "link": "/certificates/react.jpg"
     },
     {
       "id": 3,
       "title": "Curso de Diseño UX/UI",
       "description": "El curso que realicé me brindó valiosos conocimientos y prácticas en la investigación de usuarios, permitiéndome aprender cómo crear aplicaciones que satisfagan sus necesidades y ofrecer productos de alta calidad. Además, tuve la oportunidad de aprender sobre metodologías ágiles de trabajo, lo que me permitió encarar proyectos de manera más efectiva.",
-      "link": "https://files.deply.dev/files/aa23b6c7-2f1b-45e7-810d-e239c5957fbd-9696796f-a567-49e0-9305-f20b90e31ec9-Certificado_Curso_de_Dise%C3%B1o_UX_UI_&_Figma_-_Udemy.jpg"
+      "link": "/certificates/ux_desing.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Curso de NodeJS",
+      "description": "Gracias a este curso adquirí las bases del desarrollo de APIs Restful en NodeJS, WebServers y el manejo de WebSockets con la librería SocketIo.",
+      "link": "/certificates/nodejs.jpg"
     }
   ]
 }
