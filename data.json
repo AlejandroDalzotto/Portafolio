@@ -218,7 +218,7 @@
     {
       "id": 5,
       "name": "Devdle",
-      "short_description": "En pequeño juego de adivinanza",
+      "short_description": "Un pequeño juego de adivinanza",
       "description": "Devdle se trata de un pequeño juego de adivinanza. El objetivo del juego es simple, adivinar el nombre del icono oculto. Estos iconos pueden abarcar entre: Lenguajes de programación, Frameworks, Librerías/Bibliotecas de conocimiento general, Plataformas, Herramientas y muchos otros.",
       "repository": "https://github.com/AlejandroDalzotto/devdle",
       "technologies": [
