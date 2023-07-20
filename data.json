@@ -214,6 +214,59 @@
       ],
       "demo": "https://codeffee.vercel.app/",
       "img": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw0MTAyMTV8MHwxfHNlYXJjaHwyfHxjYWZlfGVufDB8fHx8MTY4MTIyNDE2Mw&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+      "id": 5,
+      "name": "Devdle",
+      "short_description": "En pequeño juego de adivinanza",
+      "description": "Devdle se trata de un pequeño juego de adivinanza. El objetivo del juego es simple, adivinar el nombre del icono oculto. Estos iconos pueden abarcar entre: Lenguajes de programación, Frameworks, Librerías/Bibliotecas de conocimiento general, Plataformas, Herramientas y muchos otros.",
+      "repository": "https://github.com/AlejandroDalzotto/devdle",
+      "technologies": [
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Qwik",
+        "TailwindCSS",
+        "Vercel"
+      ],
+      "resources": [
+        "Simple Icons"
+      ],
+      "contributors": [
+        {
+          "username": "Alejandro Dalzotto",
+          "profile": "https: //github.com/alejandrodalzotto"
+        }
+      ],
+      "demo": "https://devdle.vercel.app/",
+      "img": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0MTAyMTV8MHwxfHNlYXJjaHwxfHx2aWRlb2dhbWV8ZW58MHx8fHwxNjg5ODg0NDc5fDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+      "id": 6,
+      "name": "Frontdev Resources",
+      "short_description": "Página web de recursos para Devs.",
+      "description": "Frontdev Resources agrupa diferentes enlaces a recursos, desde librerías, herramientas, apps web para diagramar, imagenes, iconos y muchos más.",
+      "repository": "https://github.com/AlejandroDalzotto/frontdev-resources",
+      "technologies": [
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Astro.js",
+        "TailwindCSS",
+        "Vercel"
+      ],
+      "resources": [
+        "View Transitions API",
+        "TailwindCSS Animated"
+      ],
+      "contributors": [
+        {
+          "username": "Alejandro Dalzotto",
+          "profile": "https: //github.com/alejandrodalzotto"
+        }
+      ],
+      "demo": "https://frontdev-resources.vercel.app/",
+      "img": "https://images.unsplash.com/photo-1591267990532-e5bdb1b0ceb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0MTAyMTV8MHwxfHNlYXJjaHwxM3x8ZnJvbnRlbmR8ZW58MHx8fHwxNjg5ODg0NjEwfDA&ixlib=rb-4.0.3&q=80&w=1080"
     }
   ],
   "educations": [
