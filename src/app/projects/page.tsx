@@ -1,4 +1,5 @@
-import { ProjectCard, TransitionLink } from "@/components"
+import ProjectCard from "@/components/ProjectCard"
+import TransitionLink from "@/components/TransitionLink"
 import { getAllProjectsArticles } from "@/lib/mdx-utils"
 import type { Metadata } from "next"
 

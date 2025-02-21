@@ -1,23 +1,22 @@
-import { ScrollSign, TransitionLink } from "@/components";
-import { AboutServiceImage } from "@/components";
-import { CheckIcon, GithubIcon, LinkedinIcon } from "@/components/icons";
+import { AboutServiceImage } from "@/components/AboutServiceImage";
+import CheckIcon from "@/components/icons/Check";
+import GithubIcon from "@/components/icons/Github";
+import LinkedinIcon from "@/components/icons/LinkedIn";
+import ScrollSign from "@/components/ScrollSign";
+import TransitionLink from "@/components/TransitionLink";
 import { aptitudes } from "@/lib/data";
-// import Image from "next/image";
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "About",
+  description: "Take a look to the services I offer.",
+};
 
 export default function AboutPage() {
 
-
-
   return (
     <main className="container flex flex-col px-10 py-20 mx-auto sm:max-w-[60ch] md:max-w-[80ch] lg:max-w-[120ch] font-safiro">
-      {/* <Image
-        width={612}
-        height={923}
-        alt="photo"
-        src="/photo.jpg"
-        className="fixed -translate-x-1/2 -translate-y-1/2 opacity-75 pointer-events-none top-1/2 left-1/2 -z-10 sm:textblack mask-image-about"
-      /> */}
       <header className="relative max-w-[80ch] grid h-screen mx-auto px-4 place-items-center justify-items-start">
         <div className="flex flex-col gap-y-3">
           <h1 className="text-4xl font-bold font-ocean-trace">About me</h1>

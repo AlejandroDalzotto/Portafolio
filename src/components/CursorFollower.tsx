@@ -1,9 +1,9 @@
 "use client";
 
-import { motion } from "motion/react"
+import * as motion from "motion/react-client"
 import { useEffect, useState } from "react";
 
-export const CursorFollower = () => {
+const CursorFollower = () => {
 
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
 
@@ -35,3 +35,5 @@ export const CursorFollower = () => {
     </div>
   )
 }
+
+export default CursorFollower;

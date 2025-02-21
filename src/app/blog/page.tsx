@@ -1,4 +1,4 @@
-import { TransitionLink } from "@/components"
+import TransitionLink from "@/components/TransitionLink"
 import { getAllBlogArticles } from "@/lib/mdx-utils"
 import type { Metadata } from "next"
 
@@ -26,7 +26,7 @@ export default async function BlogsPage() {
             return (
 
               <TransitionLink
-                href={`/blog/${article.slug}`}
+                href={`/blog/`}
                 key={article.slug}
                 className="flex flex-col p-3 transition-colors rounded-md gap-y-2 font-safiro hover:bg-white/15"
               >

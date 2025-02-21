@@ -1,19 +1,16 @@
 "use client"
 
-import type React from "react"
-
 import { useRouter } from "next/navigation"
 import Link, { type LinkProps } from "next/link"
-import { useTransitionStore } from "@/contexts"
 import { getTitleFromPath, sleep } from "@/lib/utils"
+import useTransitionStore from "@/contexts/page-transition-store"
 
 interface TransitionLinkProps extends LinkProps {
   children: React.ReactNode
   className?: string
 }
 
-
-export function TransitionLink({ children, href, className, ...props }: TransitionLinkProps) {
+export default function TransitionLink({ children, href, className, ...props }: TransitionLinkProps) {
   const router = useRouter()
   const startTransition = useTransitionStore((state) => state.startTransition)
   const completeTransition = useTransitionStore((state) => state.completeTransition)

@@ -1,7 +1,6 @@
-import type { MDXComponents } from "mdx/types"
-import { Code, RoundedImage } from "@/components"
+import { Code, RoundedImage } from "./CustomMDX"
 
-const components: MDXComponents = {
+const components = {
   Image: RoundedImage,
   code: Code,
 }

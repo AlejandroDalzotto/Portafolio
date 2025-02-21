@@ -1,4 +1,4 @@
-import { CustomMDX } from "@/components"
+import { CustomMDX } from "@/components/CustomMDX"
 import { getBlogArticleBySlug } from "@/lib/mdx-utils"
 import { Metadata } from "next"
 

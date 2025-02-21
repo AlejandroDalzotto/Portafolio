@@ -1,6 +1,7 @@
 'use client';
 
-import { motion, useAnimation } from 'motion/react';
+import { useAnimation } from 'motion/react';
+import * as motion from "motion/react-client"
 import type { Variants } from 'motion/react';
 import type { HTMLAttributes } from 'react';
 import { forwardRef, useCallback, useImperativeHandle, useRef } from 'react';
@@ -177,4 +178,4 @@ const LinkedinIcon = forwardRef<
 
 LinkedinIcon.displayName = 'LinkedinIcon';
 
-export { LinkedinIcon };
+export default LinkedinIcon;

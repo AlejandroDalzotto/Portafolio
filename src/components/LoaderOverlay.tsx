@@ -1,12 +1,13 @@
 "use client"
 
-import { AnimatePresence, motion, type Variants } from "motion/react"
-import { useTransitionStore } from "@/contexts"
+import * as motion from "motion/react-client"
+import { AnimatePresence, type Variants } from "motion/react"
+import useTransitionStore from "@/contexts/page-transition-store"
 
 const items = [1, 2, 3, 4, 5, 6, 7, 8]
 const STAGGER_DELAY = 0.06
 
-export function LoaderOverlay() {
+export default function LoaderOverlay() {
   const isTransitioning = useTransitionStore((state) => state.isTransitioning)
 
   const variants: Variants = {

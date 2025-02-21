@@ -1,6 +1,4 @@
-import React from 'react'
-
-export const ScrollSign = () => {
+const ScrollSign = () => {
   return (
     <div className="mouse_scroll pointer-events-none" role='presentation'>
 
@@ -15,3 +13,5 @@ export const ScrollSign = () => {
     </div>
   )
 }
+
+export default ScrollSign;

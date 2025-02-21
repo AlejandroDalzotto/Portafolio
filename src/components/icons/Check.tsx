@@ -1,7 +1,8 @@
 'use client';
 
 import type { Variants } from 'motion/react';
-import { motion, useAnimation } from 'motion/react';
+import { useAnimation } from 'motion/react';
+import * as motion from "motion/react-client"
 import type { HTMLAttributes } from 'react';
 import { forwardRef, useCallback, useImperativeHandle, useRef } from 'react';
 
@@ -101,4 +102,4 @@ const CheckIcon = forwardRef<CheckIconHandle, HTMLAttributes<HTMLDivElement>>(
 
 CheckIcon.displayName = 'CheckIcon';
 
-export { CheckIcon };
+export default CheckIcon;

@@ -2,11 +2,13 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { useScroll, useTransform, motion } from 'motion/react'
-import { FlameIcon, GithubIcon } from '@/components/icons'
+import { useScroll, useTransform } from 'motion/react'
+import * as motion from "motion/react-client"
 import type { ProjectMetadata } from '@/lib/types'
+import GithubIcon from './icons/Github'
+import FlameIcon from './icons/Flame'
 
-export const ProjectCard = ({
+const ProjectCard = ({
   project,
   index
 }: {
@@ -89,3 +91,5 @@ export const ProjectCard = ({
     </motion.article>
   )
 }
+
+export default ProjectCard;

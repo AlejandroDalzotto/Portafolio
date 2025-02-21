@@ -1,9 +1,10 @@
 "use client"
 
-import { useTransitionStore } from "@/contexts"
-import { AnimatePresence, motion, type Variants } from "motion/react"
+import useTransitionStore from "@/contexts/page-transition-store"
+import { AnimatePresence, type Variants } from "motion/react"
+import * as motion from "motion/react-client"
 
-export const LoaderOverlayTitle = () => {
+const LoaderOverlayTitle = () => {
 
   const title = useTransitionStore(state => state.title)
   const variants: Variants = {
@@ -34,3 +35,5 @@ export const LoaderOverlayTitle = () => {
     </AnimatePresence>
   )
 }
+
+export default LoaderOverlayTitle;

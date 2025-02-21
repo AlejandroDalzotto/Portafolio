@@ -1,5 +1,5 @@
-import { TransitionLink } from "@/components";
-import { ArrowLeftIcon } from "@/components/icons";
+import ArrowLeftIcon from "@/components/icons/ArrowLeft";
+import TransitionLink from "@/components/TransitionLink";
 
 export default function MdxLayout({ children }: { children: React.ReactNode }) {
   // Create any shared layout or styles here

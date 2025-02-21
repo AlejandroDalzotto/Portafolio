@@ -1,5 +1,6 @@
-import { TransitionLink } from "@/components";
-import { GithubIcon, LinkedinIcon } from "@/components/icons";
+import GithubIcon from "@/components/icons/Github";
+import LinkedinIcon from "@/components/icons/LinkedIn";
+import TransitionLink from "@/components/TransitionLink";
 import { appLinks } from "@/lib/data";
 import Link from "next/link";
 

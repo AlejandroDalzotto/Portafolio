@@ -12,7 +12,7 @@ type Action = {
   setTitleToNull: VoidFunction
 }
 
-export const useTransitionStore = create<State & Action>()((set) => ({
+const useTransitionStore = create<State & Action>()((set) => ({
   isTransitioning: false,
   title: null,
   setTitle: (value: string) => set({ title: value }),
@@ -21,3 +21,4 @@ export const useTransitionStore = create<State & Action>()((set) => ({
   completeTransition: () => set({ isTransitioning: false }),
 }))
 
+export default useTransitionStore;
